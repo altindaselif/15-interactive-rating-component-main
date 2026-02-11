@@ -25,23 +25,53 @@
   <body>
     <main class="main-container">
       <section class="rating-container">
-        <header class="rating-img-container">
+        <div class="rating-img-container">
           <img class="rating-img" src="images/icon-star.svg" alt="Star Icon" />
-        </header>
-        <section class="rating-text-container">
+        </div>
+        <div class="rating-text-container">
           <h1 class="rating-header">How did we do?</h1>
           <p class="rating-info">
             Please let us know how we did with your support request. All
             feedback is appreciated to help us improve our offering!
           </p>
-        </section>
-        <section class="rating-point-buttons">
-          <button class="rating-point-button">1</button>
-          <button class="rating-point-button">2</button>
-          <button class="rating-point-button">3</button>
-          <button class="rating-point-button">4</button>
-          <button class="rating-point-button">5</button>
-        </section>
+        </div>
+        <div class="rating-point-buttons">
+          <button
+            class="rating-point-button"
+            type="button"
+            aria-label="Rating 1 out of 5"
+          >
+            1
+          </button>
+          <button
+            class="rating-point-button"
+            type="button"
+            aria-label="Rating 2 out of 5"
+          >
+            2
+          </button>
+          <button
+            class="rating-point-button"
+            type="button"
+            aria-label="Rating 3 out of 5"
+          >
+            3
+          </button>
+          <button
+            class="rating-point-button"
+            type="button"
+            aria-label="Rating 4 out of 5"
+          >
+            4
+          </button>
+          <button
+            class="rating-point-button"
+            type="button"
+            aria-label="Rating 5 out of 5"
+          >
+            5
+          </button>
+        </div>
         <button type="button" class="rating-submit-button" disabled>
           SUBMIT
         </button>
@@ -52,7 +82,7 @@
           src="images/illustration-thank-you.svg"
           alt="Success Icon"
         />
-        <p class="result-subtitle">
+        <p class="result-subtitle" aria-live="polite">
           You selected <span class="result-rating-point">4</span> out of 5
         </p>
         <h2 id="result-title-id" class="result-title">Thank you!</h2>

@@ -112,7 +112,9 @@ body {
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 
   display: flex;
   align-items: center;
@@ -138,7 +140,9 @@ body {
   background-color: var(--orange-500);
   padding: var(--spacing-100) 0;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .rating-submit-button:not(:disabled):hover {

@@ -8,7 +8,7 @@ let selectedRating = null;
 
 ratingPointButtons.forEach((button) => {
   button.addEventListener("click", (e) => {
-    ratingPointButtons.forEach((button) => button.classList.remove("selected"));
+    ratingPointButtons.forEach((btn) => btn.classList.remove("selected"));
     e.currentTarget.classList.add("selected");
 
     selectedRating = e.currentTarget.textContent;
